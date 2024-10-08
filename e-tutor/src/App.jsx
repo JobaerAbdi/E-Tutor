@@ -1,9 +1,16 @@
+import Navbar from "./components/Navbar/Navbar";
+import NavbarBanner from "./components/Navbar/NavbarBanner";
+import Hero from "./components/Hero/Hero";
+import NumberCounter from "./components/NumberCounter/NumberCounter";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <main className="overflow-x-hidden">
+      <Navbar />
+      <NavbarBanner/>
+      <Hero/>
+      <NumberCounter/>
+    </main>
   );
 };
 
