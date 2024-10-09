@@ -14,6 +14,7 @@ export const SlideUp = (delay) => {
       },
     };
   };
+  
   export const SlideLeft = (delay) => {
     return {
       hidden: {
